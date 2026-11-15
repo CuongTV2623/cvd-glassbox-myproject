@@ -1,0 +1,113 @@
+GOI-THUC-NGHIEM — Bản kê nội dung
+Bài: arXiv:2609.11838 — Target leakage, not model class, explains reported accuracy
+Dữ liệu: CDC BRFSS 2022 (442 067 người trả lời, 44 cột sau xử lý)
+
+SHA-256                KB  TỆP
+------------------------------------------------------------------------------
+ae544efa0192ea68       5.1  analysis/aggregate_results.py
+1c75bb0477010684       1.2  analysis/compute_cis.py
+7b747064428482ad       4.0  analysis/conformal_v2_rev.py
+0b43e91d85bd4e95       3.0  analysis/equivalence_rev.py
+e49f25dc66f36ff4       2.4  analysis/fairness_bootstrap_rev.py
+f89987494b347790       2.4  analysis/figure_style.py
+501349d1dee42c02       3.3  analysis/lime_on_ebm_rev.py
+fbec90eee1a8d8ad       3.1  analysis/make_f4_chord.py
+dff933835b7188a3       7.0  analysis/make_fig_upgrades.py
+660b13c53afc13be      10.8  analysis/make_figures.py
+a1568e8556b1a318       6.2  analysis/make_final_figs.py
+e6de0b95df198551       7.6  analysis/make_tables.py
+bde958bc4e48db7d       3.7  analysis/purge_and_refill.sh
+9d5c47c434da6d25       2.0  analysis/temporal_oe_rev.py
+cc702dc7d5416d4e       2.9  CAI-DAT.bat
+d22a81baf0add0d3       4.1  CHAY-THUC-NGHIEM.bat
+de94057744cf2af8       2.8  chay_thuc_nghiem.sh
+05c41f8abe6459a3       0.8  CITATION.cff
+2f979196407cf70f       1.2  configs/default.yaml
+9101f42e8397925b       0.1  configs/models/catboost.yaml
+2b4adcd88aad1276       0.1  configs/models/ebm.yaml
+f744901104d66fee       0.0  configs/models/lightgbm.yaml
+f744901104d66fee       0.0  configs/models/logreg.yaml
+f744901104d66fee       0.0  configs/models/logreg_spline.yaml
+5809543bc898d300       0.1  configs/models/mlp.yaml
+242290a0f14a5dd0       0.1  configs/models/random_forest.yaml
+cfb07d210dc1a058       0.0  configs/models/tabicl.yaml
+5251212f9345593e       0.1  configs/models/tabpfn_v2.yaml
+b2fb0363bd7c8efe       0.1  configs/models/xgboost.yaml
+8602ae3b2a1389bc       0.6  configs/smoke.yaml
+95cf146626085b85   10023.6  data/analytic/brfss_2022_analytic.parquet
+c8143a694bd35907       3.4  delong_check.py
+1c9a5aa0b13f1671       1.8  experiments/run_addons.sh
+c4aa422e19a9c9bb       3.4  experiments/run_all.sh
+86892347c712be32       7.1  experiments/run_benchmark.py
+233d4b42f9cf00ca       2.4  experiments/run_complete_case.py
+c090092cbef7a5e8       3.9  experiments/run_conformal.py
+cfba2f6d21411c81       7.9  experiments/run_fairness.py
+ea1b84c4676c4410       8.4  experiments/run_fairness_v2.py
+679b577b9ccef58b       5.3  experiments/run_faithfulness.py
+19130b9515589441       1.7  experiments/run_recalibration.py
+ffa9e17f78f0c1cc       4.8  experiments/run_temporal.py
+06165204a30b14dc       5.5  experiments/run_tuning.py
+799f2fd68c502b22       2.2  experiments/run_unweighted_rev.py
+aed79693e0f207c0       1.8  experiments/run_weighted.py
+d432dd06ac0911a1       2.0  experiments/run_weighted_train_rev.py
+155534e3898d3a35       3.8  kiem_toan_predictions.py
+d7fc38c5c34ce9f1       2.1  kiem_tra.py
+3ebfbd17dbd9a5d9       1.1  LICENSE
+690931fc425f5136       8.4  README-TAC-GIA.md
+16661889d976926a       6.4  README.md
+ca8b49084a1b359c       1.5  requirements-lock.txt
+00f3cb4587e5b656       1.1  requirements.txt
+679b21e158f99bc9       2.6  results/_exports/bien_theo_tang.csv
+41466f3a160e6a67       3.8  results/_exports/conformal_by_group.csv
+1d5eb221d266fa83       0.4  results/_exports/fairness_arms.csv
+f9f4c7538e924ac3       2.6  results/_exports/predictions_index.csv
+35c898df43d5109f      17.6  results/_exports/raw_results_gon.csv
+5a2129accb1edd8d       1.3  results/delong.csv
+79c92953078ebccc       1.2  results/delong_noninf_t1.csv
+d0df58a626e3fa49       6.4  results/overnight.log
+aa82f9be5059acd9     187.8  results/raw_results.csv
+fb258182c686e1bd     104.8  results/summary.csv
+da0236623cea9698   38233.7  results/tham-chieu/predictions.zip
+2fd33d075f32ebce       0.1  results/wilcoxon.csv
+035cff4fcc70b418       2.4  run_night.sh
+1f6c4d2dfb45b8ce       6.8  RUNBOOK.md
+2a905a9f3d2f8783      10.5  scripts/revision/revision_hotfix1.sh
+ff451abaa81789ac       5.0  scripts/revision/revision_hotfix2.sh
+457d9a55e6ecfe0e      36.2  scripts/revision/revision_pass1.sh
+359c38b475f29228       8.1  scripts/revision/revision_pass1b.sh
+162153a28132ebe6       1.6  scripts/revision/revision_pass1c.sh
+e3b0c44298fc1c14       0.0  src/__init__.py
+e3b0c44298fc1c14       0.0  src/data/__init__.py
+a596ef6736db96a0       4.9  src/data/build_dataset.py
+5edc3bc91da9402c      13.1  src/data/variable_map.py
+e3b0c44298fc1c14       0.0  src/evaluation/__init__.py
+2d56c39d8e51c5be       4.6  src/evaluation/conformal.py
+92cb7a2acd169415       3.3  src/evaluation/fairness.py
+2933b65b9077dc33       5.1  src/evaluation/faithfulness.py
+20b5ba8c9c70c213       6.5  src/evaluation/metrics.py
+e3b0c44298fc1c14       0.0  src/models/__init__.py
+faa5c554f9ddfeec      18.3  src/models/registry.py
+e3b0c44298fc1c14       0.0  src/repair/__init__.py
+4431ea8080456a2d       3.6  src/repair/ebm_repair.py
+e3b0c44298fc1c14       0.0  src/utils/__init__.py
+f1dd42c81aa1399d       2.7  src/utils/common.py
+577c452fa4f7c647       3.2  summarize_audits.py
+6075d03efddc0098       4.3  summarize_run.py
+632fa103cc22b8db       1.8  tao_manifest.py
+b908c4dd8b5a6674       3.7  tests/test_smoke.py
+893e3223663e3995       2.5  xem_ket_qua.py
+6025130698ca80c1       5.1  xuat_ket_qua.py
+------------------------------------------------------------------------------
+Tổng: 50.1 MB
+
+Kiểm tra toàn vẹn sau khi nhận (Windows PowerShell):
+  Get-FileHash -Algorithm SHA256 GOI-THUC-NGHIEM.zip
+
+Cấu trúc:
+  src/ experiments/ configs/ analysis/ tests/ scripts/   mã nguồn (MIT)
+  data/analytic/brfss_2022_analytic.parquet              dữ liệu đã xử lý, 9,8 MB
+  results/                                               kết quả lần chạy gốc
+  results/tham-chieu/predictions.zip                     dự đoán gốc để đối chiếu
+  README.md                                              hướng dẫn bắt đầu
+  CAI-DAT.bat · CHAY-THUC-NGHIEM.bat · chay_thuc_nghiem.sh   bộ chạy tự động
+  RUNBOOK.md                                             hướng dẫn chi tiết 12 mục
