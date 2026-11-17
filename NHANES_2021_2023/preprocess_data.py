@@ -86,6 +86,16 @@ for tier in ["T0", "T1"]:
 
     # Chi fit tren TRAIN
     X_train_processed = preprocessor.fit_transform(X_train)
+    
+    import joblib
+
+    artifact_dir = folder / "preprocessors"
+    artifact_dir.mkdir(exist_ok=True)
+
+    joblib.dump(
+        preprocessor,
+        artifact_dir / f"preprocessor_{tier}.joblib"
+    )
 
     # Validation va Test chi transform
     X_val_processed = preprocessor.transform(X_val)
